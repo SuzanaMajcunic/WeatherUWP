@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="WeatherUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeatherUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Loaded="Page_Loaded">
+
+    <StackPanel Background="DarkOrange">
+        <StackPanel  VerticalAlignment="Center" Orientation="Vertical">
+            <TextBlock Text="Location: " FontSize="36" Foreground="White" HorizontalAlignment="Center" />
+            <TextBlock Name="LocationTextBlock" FontSize="24" Foreground="White" HorizontalAlignment="Center" TextWrapping="Wrap"
+                       Text="loading..."/>
+
+            <Image Name="ResultImage" Width="200" Height="200" HorizontalAlignment="Center" />
+
+            <TextBlock Text="Temperature (C&#186;): " Foreground="White" HorizontalAlignment="Center"
+                       FontSize="30" Margin="0 15 0 0" FontStyle="Italic"/>
+            <TextBlock Name="TempTextBlock" FontSize="35" Foreground="White" HorizontalAlignment="Center"
+                       Text="loading..."/>
+
+            <TextBlock Text="Description: " FontSize="30" Foreground="White" HorizontalAlignment="Center"
+                       Margin="0 15 0 0" FontStyle="Italic"/>
+            <TextBlock Name="DescriptionTextBlock" FontSize="35" Foreground="White" HorizontalAlignment="Center"
+                       Text="loading..."/>
+
+            <TextBlock Text="Humidity: " FontSize="30" Foreground="White" HorizontalAlignment="Center"
+                       Margin="0 18 0 0" FontStyle="Italic"/>
+            <TextBlock Name="HumidityTextBlock" FontSize="35" Foreground="White" HorizontalAlignment="Center"
+                       Text="loading..."/>
+        </StackPanel>
+    </StackPanel>
+</Page>
