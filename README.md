@@ -11,4 +11,4 @@ Current location is found by getting device's location (latitude and longitude).
 
 Print-screen of home page. This is a simple one-page app.
 
-![alt text](https://github.com/SuzanaMajcunic/WeatherUWP/blob/master/Home_screen.PNG?raw=true "Title")
+![alt text](https://github.com/SuzanaMajcunic/WeatherUWP/blob/master/Home_screen.PNG?raw=true "Home page Weather")
