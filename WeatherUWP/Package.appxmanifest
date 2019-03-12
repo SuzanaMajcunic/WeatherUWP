@@ -4,7 +4,7 @@
   <mp:PhoneIdentity PhoneProductId="e4bf6d3b-ffb2-4eca-8dec-a50047b8dadf" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>WeatherUWP</DisplayName>
-    <PublisherDisplayName>Edith</PublisherDisplayName>
+    <PublisherDisplayName>Suzana Majcunic</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
